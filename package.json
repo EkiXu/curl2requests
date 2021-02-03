@@ -1,0 +1,22 @@
+{
+  "name": "curl2requests-cli",
+  "version": "0.1.1",
+  "description": "A Simple Tool to convert curl command to python requests style",
+  "main": "index.js",
+  "bin": {
+    "curl2requests": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EkiXu/curl2requests"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "curlconverter": "^3.13.0"
+  }
+}
