@@ -4,13 +4,15 @@ A simple tool to convert curl command to Python requests style.
 
 Install
 
-```
-npm i -g curl2requests
+```bash
+npm i -g curl2requests-cli
+#or
+yarn global add curl2requests-cli
 ```
 
 Example:
 
-```
+```bash
 curl2requests -h
 Usage: curl2requests [options] <command>
 
